@@ -1,0 +1,407 @@
+body {
+    background-color: white;
+    color: white;
+    margin: 0;  
+}
+
+header {
+    background-color: orange;
+    color: white;
+}
+
+.topnav {
+    font-family: proxima-nova,sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 1rem;
+    max-width: 984px;
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+    padding: 0 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav img {
+    width: 101px;
+    height: 36px;
+    margin: 8px 0;
+}
+
+.topnavul {
+    list-style: none;
+    display: inline-block;
+    margin: 0rem;
+}
+
+.topnavul li {
+    float: left;
+    padding: 0rem 0.75rem 0rem 0.75rem;
+}
+
+.topnavul a {
+    color: white;
+    text-decoration: none;
+}
+
+.topnavul img {
+    margin-right: .5em;
+    width: 24px;
+    vertical-align: middle;
+}
+
+main {
+    background: linear-gradient(rgba(230, 242, 247, 1), rgba(230, 242, 247, 0));
+}
+
+section {
+    padding: 0px;
+    margin: 0px;
+}
+
+.opening {
+    padding-top: 1.5rem;
+    display: block;
+    margin: 0px auto;
+    max-width: 64.5rem;
+}
+
+.boerderij {
+    background-image: url(file:///C:/Users/Robin%20Schiere/Desktop/HvA/JAAR%204/HERS%20BLOK%201/frontend/basiswebsite/images/boerderij-silhouet.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: top;
+    max-width: 64.5rem;      
+    display: flex;
+    align-items: flex-start;
+} 
+
+.boerderij h1 {
+    color: #53241b;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-right: 0.7rem;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    
+}
+
+.zoeken {
+    max-width: 64.5rem;
+    margin: auto;
+    display: block;
+
+}
+
+.koophuur {    
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: 1.25rem;
+    position: relative;
+    line-height: 2;
+    display: block;
+    background-color: orange;
+}
+
+.koophuurul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.koophuurul li {
+    margin-left: 1rem;
+    display: inline-block;
+    line-height: 2rem;
+}
+
+.koophuurul a {
+    font-family: proxima-nova,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    background-color: #f8c463;
+    display: inline-block;
+    margin-bottom: .5rem;
+    border-radius: 2px;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+}
+
+.formulier {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-left: .5rem;
+    padding-right: 1rem;
+    padding-top: 5px;
+    background-color: orange;
+}
+
+.formuliereen {
+    border: none;
+    display: block;
+    justify-content: left;
+    
+}
+
+.formuliertwee {
+    border: none;
+    display: block;
+
+}
+
+input {
+    position: relative;
+    line-height: normal;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: lightgray;
+    border: 1px solid white;
+    border-radius: 2px;
+    height: 2.5rem;
+    width: 350px;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+select {
+    position: relative;
+    line-height: normal;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: #333;
+    border: 1px solid white;
+    border-radius: 2px;
+    height: 2.75rem;
+    padding-left: 1px;
+    vertical-align: bottom;
+    min-width: 7rem;
+}
+
+.formuliertwee select {
+    padding-left: 3.5rem;
+}
+
+label {
+    height: 1.5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: .5rem;
+    margin-top: .5rem;
+    z-index: 2;    
+    position: absolute;
+    width: 1px;
+    line-height: normal;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: #999;
+}
+
+#prijsvan {
+    width: 175px;
+}
+
+option {
+    font-family: proxima-nova,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: #333;
+    border: 0 solid;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    line-height: 1.9rem;
+    background-color: orange;
+}
+
+.formbutton {
+    width: 6rem;
+    background-color: #0071b3;
+    border-color: #0071b3;
+    color: white;
+    line-height: 1.5;
+    display: inline-flex;
+    padding: 1rem 1.5rem;
+    height: 2.75rem;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    justify-self: center;
+    margin-left: 10px;
+}
+
+.drie {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    max-width: 62rem;
+    margin: 1rem auto 1.75rem auto;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 1rem;
+    text-decoration: none;
+
+}
+
+.makelaar, .kaart, .waardecheck {
+    border: 1px solid #e6f2f7;
+    border-radius: 2px;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem .5rem 1rem;
+    margin: 0rem 1rem;
+}
+    
+
+#driea {
+    text-decoration: none;
+    color: #0071b3;
+    margin-right: .5rem;
+
+}
+
+#drieimg {
+    width: 45px;
+}
+
+.setvandrie {
+    max-width: 60.5rem;  
+    margin: auto;   
+}
+
+h1 {
+    font-family: proxima-nova,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.woninginbeeldh1 {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.woninginbeeld {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.woningeen, .woningtwee, .woningdrie{
+    width: 19.5rem;
+}
+
+.woninginbeeld a {
+font-family: proxima-nova,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1rem;
+color: #0071b3;
+text-decoration: none;
+}
+
+.woninginbeeld p {
+font-family: proxima-nova,sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 1rem;
+color: black;
+text-decoration: none; 
+
+}
+
+#woningimg {
+width: 310px;
+}
+
+.fundaindexcontainer {
+width: 61rem;
+margin: auto;
+height: 16.375rem;
+
+}
+
+.fundaindex{
+background-image: url(https://www.funda-consument.kpnis.nl/upload/bfa3de61-2526-464d-bf94-e0d43a1ec838_funda-index-homepage-image.jpg);
+background-repeat: no-repeat;
+background-position: 50%;
+width: 40rem;
+height: 100%;
+text-align: center;
+position: relative;
+}
+
+.fundaindex h2{
+color: #53241b;
+font-family: proxima-nova,sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 1.75rem;
+line-height: 1rem;
+text-align: center;
+margin-bottom: 2.5rem;
+position: relative;
+top: 40%;
+}
+
+.fundaindex a {
+font-family: proxima-nova,sans-serif;
+font-weight: 350;
+font-style: normal;
+font-size: 1rem;
+text-decoration: none;
+border: 1px solid #0071b3;
+border-radius: 2px;
+color: #0071b3;
+padding: 0.5rem 1rem;
+align-items: center;
+position: relative;
+top: 40%;
+}
+
+.verhalen {
+    width: 61rem;
+    margin: auto;
+}
+
+.huiswaard {
+    background-image: url(https://www.funda-consument.kpnis.nl/upload_mm/d/a/c/cid2577_Zo-weet-je-wat-je-huis-waard-is_HEADER_648x348_878x348.jpg);
+    background-repeat: no-repeat;
+    width: 40rem;
+}
+
